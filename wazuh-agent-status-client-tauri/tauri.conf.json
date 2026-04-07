@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.0.0",
+  "productName": "Wazuh Agent Status",
+  "version": "0.1.0",
+  "identifier": "com.adorsys.wazuh-agent-status-client",
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/wazuh-logo.png",
+      "icons/wazuh-logo.ico"
+    ]
+  }
+}
